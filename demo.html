@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Replacement Lab — FIFO · LRU · OPT</title>
+    <link rel="stylesheet" href="style.css">
+    <style>html, body { margin: 0; background: #f5f6fa; }</style>
+</head>
+<body>
+    <div id="module-container"></div>
+
+    <script src="module.js"></script>
+    <script>
+        const pageReplacement =
+            window.OSDashboard.modules["team13_page_fifo_lru"];
+
+        pageReplacement.render(
+            document.getElementById("module-container")
+        );
+    </script>
+</body>
+</html>
